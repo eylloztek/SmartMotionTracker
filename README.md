@@ -52,7 +52,7 @@ The system reads tilt data from an **ADXL345 accelerometer**, calculates roll an
 
 5. **Bluetooth control mode:**
 
-   * Connect to the HM-10 module via a terminal app (e.g., *Serial Bluetooth Terminal*).
+   * Connect to the HM-10 module via a terminal app (e.g., *BLESerial Tiny*).
    * Send a value between `0` and `180` followed by a newline (`\n`).
      Example:
 
@@ -151,8 +151,6 @@ It demonstrates multiple fundamental embedded communication protocols:
 * **I2C** → ADXL345 & OLED
 * **UART** → Bluetooth communication
 * **PWM (TIM3)** → Servo control
-
-The combination provides an excellent foundation for learning **hardware–software integration** in embedded systems.
 
 ---
 
